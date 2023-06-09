@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+        .blue{
+            color: rgb(70, 70, 189);
+            background-color: rgb(204, 200, 194);
+        }
+        .bold{
+            font-weight: bold;
+        }
+        /* special selectors */
+        /* group selectors */
+        #purpose ,.inline{
+            background-color: brown;
+            text-align: center;
+        }
+        p.bold{
+            font-family: fantasy;
+        }
+    </style>
+</head>
+<body>
+    <h3>Mixed selectors</h3>
+    <p class="inline">CSS - Cascading Style Sheets</p>
+    <p id="purpose">Purpose is to Make website <span class="bold blue">colorful</span></p>
+    <h3>Different ways to apply style</h3>
+    <ol>
+        <li>Inline style</li>
+        <li><span class="bold blue">Embedded</span>/Internal style</li>
+        <li>External style</li>
+    </ol>
+    <div class="blue">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt cum maxime omnis earum. Eligendi voluptatum nemo voluptas doloribus repellendus ab.</p>
+        <P>
+        <p class="bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure repellendus saepe architecto ex! Voluptas cupiditate recusandae autem iusto molestiae dolorem excepturi laborum cum error sed consequatur corporis accusamus eveniet a, provident praesentium ut! Exercitationem, sapiente fuga! Eum nemo explicabo obcaecati fuga accusamus ratione magni repudiandae, inventore perferendis dolorum molestias?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quos.</p>
+
+        </P>
+    </div>
+</body>
+</html>

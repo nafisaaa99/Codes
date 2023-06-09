@@ -1,0 +1,34 @@
+h3{
+    color:maroon
+}
+h2{
+    color: whitesmoke;
+    padding-top: 70px;
+    text-decoration: underline overline wavy;
+}
+p{
+    color: aliceblue;
+    background-color: rgb(105, 27, 27);
+}
+.header{
+    height: 200px;
+    /* background-image: url('../../First_Website/img/1/OG8OB9o-vintage-computer-backgrounds.jpg'); */
+    background-image: url(R.jfif);
+    background-color: aqua;
+    /* image r color k blend korbe. uncmment korle bujha jabe*/
+    /* background-blend-mode: multiply; */
+    /* background-image:url('././R.jfif'); */
+    /* background-image: url('../../First_Website/img/R.jfif'); */
+    background-size: 100%; 
+    /* 100% or cover same */
+
+    /* background-repeat: no-repeat;
+    background-position: top left;
+    background-position: bottom center;
+    background-size: 10%;  */
+
+}
+
+.blog{
+    box-shadow: 5px 5px 5px rgb(78, 4, 4);
+}
